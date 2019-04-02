@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace BrainWorkout.Solutions
 {
     //646. Maximum Length of Pair Chain
-    public class Solution
+    public class FindLongestChain646
     {
         public static int FindLongestChain(int[][] pairs)
         {

@@ -44,7 +44,8 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Solutions\Solution.cs" />
+    <Compile Include="Solutions\FindLongestChain646.cs" />
+    <Compile Include="Solutions\MaxProfit121.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
