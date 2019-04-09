@@ -10,8 +10,9 @@ namespace BrainWorkout
     {
         static void Main(string[] args)
         {
-            int[] input = { };
-            Console.WriteLine(Solutions.MaxProfit121.MaxProfit(input));
+            //int[] input = { 0, 1, 2, 3, 4, 8, 9, 11 };
+            int[] input = {0,1,3,5,6,8,12, 17 };
+            Console.WriteLine(Solutions.FrogJump403.CanCanCross(input));
         }
     }
 }
