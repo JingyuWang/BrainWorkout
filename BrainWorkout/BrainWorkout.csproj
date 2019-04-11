@@ -47,6 +47,7 @@
     <Compile Include="Solutions\FindLongestChain646.cs" />
     <Compile Include="Solutions\FrogJump403.cs" />
     <Compile Include="Solutions\MaxProfit121.cs" />
+    <Compile Include="Solutions\TwoSum.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
