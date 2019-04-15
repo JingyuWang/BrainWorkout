@@ -8,30 +8,30 @@ namespace BrainWorkout
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            int[] input = { 0, 1, 2, 3, 4, 8, 9, 11 };
-            BrainWorkout.Solutions.TwoSum t = new BrainWorkout.Solutions.TwoSum();
-            t.Add(3);
-            Console.WriteLine(t.getTwoSum()[3]);
-            t.Add(1);
-            Console.WriteLine(t.getTwoSum()[1]);
-            t.Add(2);
-            Console.WriteLine(t.getTwoSum()[2]);
-            t.Add(3);
-            Console.WriteLine(t.getTwoSum()[3]);
+            int[][] a = new int[2][];
+            a[0] = new int[] { 17, 2, 17 };
+            a[1] = new int[] { 16, 5, 16 };
 
+            Console.WriteLine(BrainWorkout.Solutions.Paint_House256.MinCost(a));
+        }
 
-            Console.WriteLine(t.Find(6));
+        public IList<string> BinaryTreePaths(TreeNode root)
+        {
 
+        }
 
-
-
-            //Dictionary<int, int> twosum = new Dictionary<int, int>();
-            //twosum.Add(1, 2);
-            //twosum[1]++;
-            //Console.WriteLine(twosum[1]);
-
+        public class TreeNode
+        {
+            public int val;
+            public TreeNode left;
+            public TreeNode right;
+            public TreeNode(int x) { val = x; }
         }
     }
 }
+
+
+
+
