@@ -10,13 +10,10 @@ namespace BrainWorkout
     {
         public static void Main(string[] args)
         {
-            string pattern = "abba", str = "dog cat cat dog";
-            //Console.WriteLine(BrainWorkout.Solutions.FirstBadVersion278.IsBadVersion(2));
-            bool a = BrainWorkout.Solutions.WordPattern290.WordPattern(pattern, str);
-            Console.WriteLine(a);
-            
+            string a = "leetcode";
+            string b = BrainWorkout.Solutions.ReverseVowelsofaString345.ReverseVowels(a);
+            Console.WriteLine(b);
         }
-
     }
 }
 

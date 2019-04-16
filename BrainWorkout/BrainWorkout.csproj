@@ -55,6 +55,8 @@
     <Compile Include="Solutions\MaxProfit121.cs" />
     <Compile Include="Solutions\Paint House256.cs" />
     <Compile Include="Solutions\PaintFence276.cs" />
+    <Compile Include="Solutions\PowerOfFour342.cs" />
+    <Compile Include="Solutions\ReverseVowelsofaString345.cs" />
     <Compile Include="Solutions\ShortestDistance243.cs" />
     <Compile Include="Solutions\TwoSum.cs" />
     <Compile Include="Solutions\WordPattern290.cs" />
