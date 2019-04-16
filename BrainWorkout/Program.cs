@@ -10,25 +10,13 @@ namespace BrainWorkout
     {
         public static void Main(string[] args)
         {
-            int[][] a = new int[2][];
-            a[0] = new int[] { 17, 2, 17 };
-            a[1] = new int[] { 16, 5, 16 };
-
-            Console.WriteLine(BrainWorkout.Solutions.Paint_House256.MinCost(a));
+            string pattern = "abba", str = "dog cat cat dog";
+            //Console.WriteLine(BrainWorkout.Solutions.FirstBadVersion278.IsBadVersion(2));
+            bool a = BrainWorkout.Solutions.WordPattern290.WordPattern(pattern, str);
+            Console.WriteLine(a);
+            
         }
 
-        public IList<string> BinaryTreePaths(TreeNode root)
-        {
-
-        }
-
-        public class TreeNode
-        {
-            public int val;
-            public TreeNode left;
-            public TreeNode right;
-            public TreeNode(int x) { val = x; }
-        }
     }
 }
 
