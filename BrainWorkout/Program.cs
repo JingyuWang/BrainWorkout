@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using solu = BrainWorkout.Solutions.ValidPerfectSquare367;
 
 namespace BrainWorkout
 {
@@ -10,9 +11,7 @@ namespace BrainWorkout
     {
         public static void Main(string[] args)
         {
-            string a = "leetcode";
-            string b = BrainWorkout.Solutions.ReverseVowelsofaString345.ReverseVowels(a);
-            Console.WriteLine(b);
+            bool a = BrainWorkout.Solutions.ValidWordAbbreviation408.ValidWordAbbreviation("internationalization", "i5a11o1");
         }
     }
 }
